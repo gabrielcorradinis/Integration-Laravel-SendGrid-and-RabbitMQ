@@ -10,7 +10,7 @@ Projeto para envio de e-mails utilizando o Laravel, uma plataforma gratuita de e
 ## Para instalar e utilizar o projeto, siga estas etapas:
 
 - Clone do projeto em uma pasta.
-- Renomear o arquivo '.env.example' para '.env'.
+- Copiar o arquivo arquivo '.env.example' e renomear um para '.env'.
 - Popular com as credenciais no .env, sendo elas: 
   - Dados do seu Banco de dados.
   - Dados do seu RabbitMQ (user/password padrão é 'guest').
@@ -20,6 +20,7 @@ Projeto para envio de e-mails utilizando o Laravel, uma plataforma gratuita de e
   - `make up` para subir o container do Docker.
   - `make install` para instalar as dependencias no container.
   - `make permissions` para dar as devidas permissões.
+  - `make migrate` para criar a tabela na db.
 - Para acessar na Web, utilize o link `localhost:8384`.
 - Para acessar o RabbitMQ na Web, utilize o link `localhost:15672`.
  
